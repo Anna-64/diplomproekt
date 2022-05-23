@@ -15,7 +15,7 @@
 Открыть Docker на виртуальной машине;
 
  в Docker 
-1) клонировать репозиторий с Github git clone https://github.com/Anna-64/diplompro.git
+1) клонировать репозиторий с Github git clone https://github.com/Anna-64/diplomproekt.git
 
    в IntelliJ IDEA
 2) Открыть проект в IntelliJ IDEA, отокрыть терминал (Fn + Alt + F12);
