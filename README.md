@@ -12,7 +12,7 @@
 ## Подготовительный этап
 Установить и запустить IntelliJ IDEA;
 Установать Node.js;
-Открыть Docker на виртуальной машине;
+Установить Docker Dekstop;
 
  в Docker 
 1) клонировать репозиторий с Github git clone https://github.com/Anna-64/diplomproekt.git
@@ -21,8 +21,9 @@
 2) Открыть проект в IntelliJ IDEA, отокрыть терминал (Fn + Alt + F12);
 3) переходим в папку gate-simulator (cd gate-simulator);
 4) запускаем банковский симулятор коммандой npm start;
-5) открываем в терминале (+) новую вкладку и вводим команду docker-compose up -d;
+5) открываем в терминале (+) новую вкладку и вводим команду docker-compose up -d --force-recreate;
 6) открываем в терминале (+) новую вкладку и запускаем jar файл коммандой java -jar aqa-shop.jar.
+7) открываем страницу в Google Chrome http://localhost:8080/.
 
 
 Запуск тестового приложения
